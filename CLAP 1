@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float tractLand,tractLandacred;
+    scanf("%f",&tractLand);
+    tractLandacred=(float)tractLand/43560;
+    printf("%.2f sq.ft is equal to %.2f acres",tractLand,tractLandacred);
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
